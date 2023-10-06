@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianluca Grammatica</title>
+    <link rel="icon" href="https://i.ibb.co/d71Sx08/New-Element-2-Copy-0-B0-D410.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+        *{
+            transition: all 0.4s ease-in;
+        }
+        body{
+            font-family: "Quicksand", Bold;
+            background-color: #806dd4;
+            background-color: #100326;
+            background-image: url(https://abcia-2.web.app/Images/BG.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -ms-overflow-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #9969c9;
+        }
+        .Header {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .Content{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            background-image: linear-gradient(to bottom, #d1cce6, #cac4dd, #c3bdd4, #bcb5cb, #b5aec2);
+            border-radius: 30PX;
+            padding: 25px 0 25px 0;
+        }
+        .MainAvatar{
+            width: 25%;
+            height: auto;
+            border-radius: 500px;
+            animation-name: YouSpinMeRightRound;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes YouSpinMeRightRound {
+            0% {rotate: 0deg;}
+            100% {rotate: 360deg;}
+        }
+
+        a:hover{
+            opacity: 50%;
+        }
+
+        .MainAvatar:active{
+            scale: 1.7;
+        }
+
+        .SocialButtons{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+}
+
+.SocialButtons a img {
+    height: 40px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+@media (orientation : landscape){
+.SocialButtons a img {
+    height: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+}
+
+        .MainText{
+            text-align: center;
+        }
+        .Light1{
+            color: #e9e4f7;
+        }
+        .Dark1{
+            color: #2e1b45;
+        }
+        .LightBorder{
+            border: solid #e9e4f7 7px;
+        }
+        .DarkBorder{
+            border: solid #2e1b45 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Header Light1">
+        <h1>✦ Gianluca Grammatica ✦</h1>
+        <h2>3^CII</h2>
+    </div>
+    <div class="Content">
+        <img src="https://abcia-2.web.app/Images/ProfilePicture1.png" alt="Abcia2" class="MainAvatar DarkBorder">
+        <h3 class="MainText Dark1">Hi, I'm Abcia2<br>I'm a Live2D rigger and animator.<br>I'm learning how to make web sites and video games</h3>
+        <div class="SocialButtons">
+            <a target="_blank" href="https://youtube.com/c/abcia2">
+              <img alt="Abcia2 Youtube" src="https://abcia-2.web.app/Images/yiti.png">
+           </a>
+           <a target="_blank" href="https://play.google.com/store/apps/dev?id=8952508138721613147">
+            <img alt="Abcia2 Play Store" src="https://abcia-2.web.app/Images/pypi.png">
+           </a>
+          </div>
+        <h2><a href="https://github.com/GianlucaGrammatica/informatica-Grammatica.git" target="_blank">GitHub Repository</a></h2>
+        <h3><a href="https://abcia-2.web.app">Official Website</a></h3>
+        <hr>
+        <h1>Potfolio</h1>
+    </div>
+
+    <script type="text/javascript">
+        console.log("Hellow");
+    </script>
+</body>
+</html>
